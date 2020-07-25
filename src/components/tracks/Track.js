@@ -13,7 +13,7 @@ function Track(props) {
                     <br/>
                     <strong><i className="fas fa-compact-disc"> Album</i></strong> : {track.album_name}
                 </p>
-                <Link to={`lyrics/track/${track.track_id}`} className="btn">
+                <Link to={`lyrics/track/${track.track_id}`} className="btn-track">
                 <i className="fas fa-chevron-right" /> View Lyrics
                 </Link>
             </div>

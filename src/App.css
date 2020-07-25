@@ -6,10 +6,7 @@
 }
 
 .column11 {
-  /* height: 50px; */
   width: 40%; 
-  /* border: 1px solid red; */
-  /* float: left; */
   flex-direction: row-reverse;
   padding: 1.5%;
   margin: 10px auto;
@@ -29,8 +26,46 @@
   font-style: oblique;
 } */
 
-.btn {
+.btn-track {
   background-color: black;
   width: 100%;
   color: aliceblue;
+}
+
+.boxx {
+  border: 1px solid rgb(232, 230, 230);
+  margin-top: 20px;
+}
+
+.lyric-link-btn {
+  background-color: black;
+  color: aliceblue;
+  display: inline-block;
+  margin-top: 45px;
+  padding: 4px;
+}
+
+.lyric-title-box {
+  width: 100%;
+  background-color: rgb(232, 230, 230);
+  padding: 8px;
+}
+
+.lyric-box {
+  width: 100%;
+  padding: 12px;
+  font-size: 11px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 12px;
+  padding-left: 0px;
+}
+
+.li_styling{
+  border: 1px solid rgb(232, 230, 230);
+  font-size: 12px;
+  padding: 8px 12px 8px 12px;
+  border-bottom-color: rgb(247, 245, 245);
 }
