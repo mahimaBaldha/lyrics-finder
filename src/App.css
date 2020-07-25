@@ -69,3 +69,30 @@ ul{
   padding: 8px 12px 8px 12px;
   border-bottom-color: rgb(247, 245, 245);
 }
+
+
+.search-box {
+  /* border: 1px solid yellowgreen; */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.box{
+  /* border: 1px solid goldenrod; */
+  width: 96%;
+  margin: auto;
+  /* flex-direction: row; */
+}
+
+.search-form{
+  margin: 5px 0px;
+  width: 100%;
+  border: 1px solid rgb(210, 206, 206);
+}
+
+.search-btn{
+  background-color: dodgerblue;
+  color: white;
+  width: 100%;
+  margin: 10px 0 50px 0;
+}
