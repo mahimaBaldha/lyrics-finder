@@ -5,8 +5,8 @@ function Track(props) {
     const {track} = props;
 
     return (
-        <div className="column11">
-            <div className="row11">
+        <div className="column">
+            <div className="row">
                 <p>{track.artist_name}</p>
                 <p>
                     <strong><i className="fas fa-play"> Track</i></strong> : {track.track_name}

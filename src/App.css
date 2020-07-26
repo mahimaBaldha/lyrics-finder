@@ -5,7 +5,7 @@
   text-align:center;
 }
 
-.column11 {
+.column {
   width: 40%; 
   flex-direction: row-reverse;
   padding: 1.5%;
@@ -14,8 +14,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.row11 {
-  /* border: 1px solid blue; */
+.row {
   height: 100%;
   flex: 1;
 }
@@ -77,11 +76,10 @@ ul{
   text-align: center;
 }
 
-.box{
-  /* border: 1px solid goldenrod; */
+.search-box{
   width: 96%;
   margin: auto;
-  /* flex-direction: row; */
+  margin-top: 20px;
 }
 
 .search-form{
@@ -91,8 +89,9 @@ ul{
 }
 
 .search-btn{
-  background-color: dodgerblue;
+  background-color: rgb(29, 113, 197);
   color: white;
   width: 100%;
   margin: 10px 0 50px 0;
+  border: none;
 }
