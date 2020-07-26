@@ -32,7 +32,7 @@ class Lyrics extends Component {
         return <Spinner/>
     }else{
         const {music_genre_list} = track.primary_genres.music_genre_list;
-        console.log(music_genre_list);
+        // console.log(music_genre_list);
         return (
         <React.Fragment>
             <Link to="/" className="lyric-link-btn">Go Back</Link>
